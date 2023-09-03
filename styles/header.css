@@ -1,0 +1,59 @@
+.Name{
+    text-align: left;
+    padding-left: 60px;
+    margin-top: 20px;
+    color: rgb(38, 34, 50);
+    font-family:'IBM Plex Sans';
+    font-size: 50px;
+    display: inline-block;
+}
+.LogIn{
+    background-color: rgb(38, 34, 50);
+    border-style: solid;
+    color: rgb(255, 245, 237);
+    border-width: 1px;
+    border-color: rgb(38, 34, 50);
+    width: 140px;
+    height: 40px;
+    border-radius: 35px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.4s, color 0.4s;
+}
+.LogIn:hover{
+    background-color: rgb(255, 245, 237);
+    color: rgb(38, 34, 50);
+}
+.Log{
+    display: inline-block;
+    padding-left: 850px;
+    padding-top: 30px;
+    position:absolute;
+}
+.SignUp{
+    background-color: rgb(255, 245, 237);
+    border-style: solid;
+    color: rgb(38, 34, 50);
+    border-width: 1px;
+    border-color: rgb(38, 34, 50);
+    width: 140px;
+    height: 40px;
+    border-radius: 35px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.4s, color 0.4s;
+}
+.SignUp:hover{
+    background-color: rgb(38, 34, 50);
+    color: rgb(255, 245, 237);
+}
+.Sign{
+    display: inline-block;
+    padding-left: 670px;
+    padding-top: 30px;
+    position:absolute;
+}

@@ -1,0 +1,41 @@
+.Menu{
+    display: inline-block;
+}
+
+.Order-Name{
+    color: rgb(147, 41, 41);
+    font-family:'IBM Plex Sans';
+    font-size: 27px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.Sizes{
+    color: rgb(38, 34, 50);
+    font-family:'IBM Plex Sans';
+    display: block;
+    margin-left: 200px;
+}
+.OrderSpecific{
+    background-color: rgb(147, 41, 41);
+    color: white;
+    font-weight: 700;
+    border: none;
+    width: 215px;
+    height: 30px;
+    border-radius: 40px;
+    font-family: 'Rubik';
+    font-size: 20px;
+    margin-left: 200px;
+    cursor: pointer;
+    transition: opacity 0.4s, width 0.4s, height 0.4s;
+}
+.OrderSpecific:hover{
+    opacity: 0.7;
+    width: 225px;
+    height: 35px;
+}
+.Toppings{
+    color: rgb(116, 116, 116)
+}

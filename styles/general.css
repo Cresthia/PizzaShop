@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    background-color: rgb(255, 245, 237);
+    height: 1500px;
+}
+.BG{
+    filter: blur(6px);
+}
+.Order{
+    position: absolute;
+    top: 350px;
+    left: 525px;
+    color: rgb(181, 39, 39);
+    font-family: 'Rubik';
+    width: 500px;
+    height: 200px;
+    border: dotted;
+    border-width: 4px;
+    border-color: rgb(181, 39, 39);
+    font-size: 70px;
+    border-radius: 100px;
+    background-color: rgb(255, 245, 237);
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: width 0.7s, height 0.7s, font-size, 0.7s,
+    left 0.7s, top 0.7s, background-color 0.7s, color 0.7s,
+    border-color 0.7s;
+}
+.Order:hover{
+    width: 540px;
+    height: 240px;
+    font-size: 80px;
+    left: 505px;
+    top: 335px;
+    border-radius: 100px;
+    background-color: rgb(181, 39, 39);
+    color: rgb(255, 245, 237);
+    border-color: rgb(255, 245, 237);
+}
+.ban{
+    position: relative;
+}
